@@ -470,7 +470,6 @@ footer li a{
     color: rgb(227, 230, 237);
     font-size: 16px;
     font-weight: 400;
-    line-height: 30.4px;
     text-decoration: none;
 }
 footer li a:hover{
@@ -500,7 +499,6 @@ address{
     color: rgb(227, 230, 237);
     font-size: 16px;
     font-weight: 400;
-    line-height: 30.4px;
     text-decoration: none;
 }
 .contact a:hover{
