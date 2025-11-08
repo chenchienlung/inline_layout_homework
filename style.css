@@ -521,6 +521,8 @@ address{
 }
 .language{
     color: rgb(227, 230, 237);
+    background-color: transparent;
+    border: 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 30.4px;
@@ -528,7 +530,18 @@ address{
 }
 .language:hover{
     color: rgb(255, 110, 6);
+    cursor: pointer;
 }
+.language-disabled{
+    color: black;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.4px;
+    text-decoration: none;
+}
+
 .copy-right{
     width: 100%;
     padding: 14px 0;
@@ -555,13 +568,6 @@ address{
     align-items: center;
     gap: 24px;
 }
-/* .official img svg{
-    width: 44px;
-    color: rgb(158, 166, 183);
-}
-.official img svg:hover{
-    color: rgb(255, 110, 6);
-} */
 
 .facebook{
     width: 21px;
