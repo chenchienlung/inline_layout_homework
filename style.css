@@ -200,6 +200,7 @@ nav{
     background-image: url(background/New-official-website_v2_country.png);
     background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
     object-fit: cover;
 }
 .world-text{
