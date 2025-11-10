@@ -556,13 +556,22 @@ address{
     text-decoration: none;
     padding-left: 0;
 }
+.official{
+    color: rgb(227, 230, 237);
+}
+.official:hover{
+    color: rgb(255, 110, 6);
+}
 
 .copy-right{
     width: 100%;
-    padding: 14px 0;
+    height: 56px;
     float: bottom;
     color: rgb(158, 166, 183);
     background-color: rgb(25, 28, 35);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .copy-right-container{
     width: 1160px;
@@ -570,6 +579,7 @@ address{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .copy-right a{
     color: rgb(158, 166, 183);
@@ -577,16 +587,21 @@ address{
 .copy-right a:hover{
     color: rgb(255, 110, 6);
 }
-.official{
+.website-container{
     display: flex;
     flex-direction: row;
+}
+.website-container a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    gap: 24px;
 }
 
 .website{
     color: rgb(158, 166, 183);
 }
 .website:hover{
-    color: rgb(236, 99, 55);
+    color: rgb(255, 110, 6);
 }
