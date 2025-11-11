@@ -1,5 +1,5 @@
 body{
-    font-family: "Noto Sans Japanese-Normal", sans-serif;
+    font-family:  "Noto Sans Japanese-Normal", "Not Sans TC", sans-serif;
 }
 
 a{
@@ -147,6 +147,7 @@ nav{
     height: 100%;
     text-decoration: none;
     color: #505563;
+    font-size: 15px;
     font-weight: 400;
 }
 .nav-item:hover{
