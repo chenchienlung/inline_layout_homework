@@ -32,6 +32,9 @@ p{
 .mt-40{
     margin-top: 40px;
 }
+.pb-80{
+    padding-bottom: 80px;
+}
 .mb-100{
     margin-bottom: 100px;
 }
@@ -307,16 +310,19 @@ nav{
 }
 .form-title{
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 24px;
     font-weight: 700;
     color: rgb(6, 76, 140);
 }
 .form-text{
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(37, 41, 50);
     margin-bottom: 20px;
     text-align: center;
+}
+.form-text a{
+    color: rgb(0, 0, 128);
 }
 form{
     display: flex;
