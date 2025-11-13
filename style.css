@@ -130,9 +130,9 @@ nav{
     align-items: center;
 }
 .btn-red{
-    padding: 0 40px 0 20px;
+    padding: 4px 40px 4px 30px;
     margin-left: 24px;
-    background-color: rgb(236, 5, 61);
+    background-color: rgb(218, 55, 67);
     border-radius: 100px;
     color: #fff;
     font-size: 18px;
