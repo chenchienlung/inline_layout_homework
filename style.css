@@ -432,6 +432,9 @@ select:focus{
     font-weight: 700;
     color: rgb(37, 41, 50);
 }
+.tel:hover{
+    color: rgb(255, 152, 0);
+}
 .try-content{
     width: 100%;
     margin-top: 40px;
